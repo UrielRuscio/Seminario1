@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(228, 236, 86, 0.7), rgba(51, 51, 51, 0.7)), url('tu-imagen-de-fondo.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+}
+
+/* Estilo para el encabezado (barra de navegación) */
+header {
+    background-color: #135058; /* Color de fondo de la barra de navegación */
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Estilo para la lista de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+}
+
+nav ul li {
+    
+    margin: 0 20px; /* Espacio entre elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; /* Añade espacio alrededor del texto del enlace */
+    border-radius: 5px; /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+    background-color: #ff6600; /* Cambio de color de fondo al pasar el ratón por encima */
+    color: #fff; /* Cambio de color de texto al pasar el ratón por encima */
+
+}
+
+nav a {
+    margin-right: 10px;
+    color: red;
+
+}
