@@ -10,13 +10,19 @@ body {
 
 header{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 header #cerrarSesion{
     margin: 10px 10px 0 0;
     text-align: end;
     color: red;
+}
+header #side-navbar{
+    margin: 10px 0 0 10px;
+    text-align: end;
+    color: black;
+    cursor: pointer;
 }
 
 header #cerrarSesion:hover{
@@ -26,4 +32,32 @@ header #cerrarSesion:hover{
 
 header #cerrarSesion span{
     font-size: 2.2rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .item{
+    width: 50%;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(216, 212, 212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+.home .item:hover{
+    transition:all .3s ease-in-out;
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+
 }
